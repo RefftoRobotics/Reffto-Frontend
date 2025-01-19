@@ -1,19 +1,18 @@
 import { SearchBar } from "../SearchBar";
 import { TopBar } from "../Topbar";
 import { UserMenu } from "../UserMenu";
-
+import Logo from "../../assets/refftologo.png";
+import { Link } from "react-router-dom";
 export default function NavbarLayout() {
   return (
     <>
       <header className="">
         <TopBar />
         <div className="bg-purple-500 ">
-          <div className="container mx-auto px-4 py-4 flex justify-between gap-8">
-            <a href="/" className="flex-shrink-0">
-              <p className="text-white text-lg font-bold sm:text-xl md:text-2xl lg:text-3xl bg-gradient-to-r from-green-500 via-yellow-500 to-red-500 bg-clip-text text-transparent">
-                REFFTO
-              </p>
-            </a>
+          <div className="container mx-auto px-4 py-4 flex justify-between items-center gap-8">
+            <Link to="/" className="">
+              <img src={Logo} alt="Logo" className="h-12 w-auto" />
+            </Link>
             <SearchBar />
             <UserMenu />
           </div>

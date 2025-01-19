@@ -30,16 +30,16 @@ export function UserMenu() {
             onMouseLeave={() => setShowMenu(false)}
           >
             <div className="p-4 space-y-4">
-              <a
+                <a
                 href="#"
-                className="flex items-center gap-2 text-gray-700 hover:bg-purple-600"
-              >
+                className="flex items-center gap-2 text-gray-700 hover:bg-purple-300 hover:rounded"
+                >
                 <User className="w-4 h-4" />
                 Your Account
-              </a>
+                </a>
               <a
                 href="#"
-                className="flex items-center gap-2 text-gray-700 hover:bg-purple-600"
+                className="flex items-center gap-2 text-gray-700 hover:bg-purple-300 hover:rounded"
               >
                 <ShoppingCart className="w-4 h-4" />
                 Your Orders
