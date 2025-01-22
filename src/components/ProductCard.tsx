@@ -13,13 +13,17 @@ export function ProductCard({ product }: ProductCardProps) {
         <img
           src={product.imageUrl || "/placeholder.svg"}
           alt={product.title}
-          className="w-3/4 h-auto transform transition-transform duration-300 group-hover:scale-110"
+          className="w-3/4 h-auto transform transition-transform duration-300 group-hover:scale-110 rounded-xl"
         />
       </div>
-    <div className="p-4 bg-purple-50 rounded-b-lg">
-      <h3 className="text-lg font-semibold text-purple-900">{product.title}</h3>
-      <p className="text-sm text-purple-600 mt-1">{product.subtitle}</p>
-    </div>
+      <div className="p-4 bg-purple-50 rounded-b-lg">
+        <h3 className="text-lg font-semibold text-purple-900 text-center">
+          {product.title}
+        </h3>
+        <p className="text-sm text-purple-600 mt-1 text-center">
+          {product.subtitle}
+        </p>
+      </div>
     </Card>
   );
 }

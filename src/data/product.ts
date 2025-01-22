@@ -7,143 +7,81 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: 22,
-    title: "AI Robotics Kit",
+    id: 1,
+    title: "Development-boards",
     subtitle: "Beginner Friendly",
     imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+      "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
   },
   {
-    id: 23,
-    title: "Advanced AI Robot",
-    subtitle: "With Machine Learning",
+    id: 2,
+    title: "Batteries & Chargers",
+    subtitle: "Beginner Friendly",
     imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+      "https://robu.in/wp-content/uploads/2022/11/Lithium-Ion-Battery-1-2.jpg",
   },
   {
-    id: 24,
-    title: "AI Drone",
-    subtitle: "Autonomous Navigation",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+    id: 3,
+    title: "Drone Parts",
+    subtitle: "Beginner Friendly",
+    imageUrl: "https://robu.in/wp-content/uploads/2022/11/Drone-kits.jpg",
   },
   {
-    id: 25,
-    title: "AI Robotic Arm",
-    subtitle: "Precision Control",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+    id: 4,
+    title: "Sensors Modules",
+    subtitle: "Beginner Friendly",
+    imageUrl: "https://robu.in/wp-content/uploads/2022/11/Sensors.jpg",
   },
   {
-    id: 26,
-    title: "AI Surveillance Robot",
-    subtitle: "With Facial Recognition",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+    id: 5,
+    title: "Motors & ESCs",
+    subtitle: "Beginner Friendly",
+    imageUrl: "https://robu.in/wp-content/uploads/2022/11/Motors.jpg",
   },
   {
-    id: 27,
-    title: "AI Cleaning Robot",
-    subtitle: "Smart Home Integration",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+    id: 6,
+    title: "IoT & Wireless",
+    subtitle: "Beginner Friendly",
+    imageUrl: "https://robu.in/wp-content/uploads/2022/11/IoT-Wireless-2.jpg",
   },
   {
-    id: 28,
-    title: "AI Educational Robot",
-    subtitle: "STEM Learning",
+    id: 7,
+    title: "Electronic Components",
+    subtitle: "Beginner Friendly",
     imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+      "https://robu.in/wp-content/uploads/2022/11/Electronic-Components-3.jpg",
   },
   {
-    id: 29,
-    title: "AI Companion Robot",
-    subtitle: "Interactive Features",
+    id: 8,
+    title: "Electronic Modules",
+    subtitle: "Beginner Friendly",
     imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+      "https://robu.in/wp-content/uploads/2022/11/Electronic-Components-2-1.jpg",
   },
   {
-    id: 30,
-    title: "AI Security Robot",
-    subtitle: "24/7 Monitoring",
+    id: 9,
+    title: "3D Printer Parts",
+    subtitle: "Beginner Friendly",
     imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+      "https://robu.in/wp-content/uploads/2022/11/3D-Printer-Parts-2.jpg",
   },
   {
-    id: 31,
-    title: "AI Delivery Robot",
-    subtitle: "Autonomous Delivery",
+    id: 10,
+    title: "Mechanical Components",
+    subtitle: "Beginner Friendly",
     imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+      "https://robu.in/wp-content/uploads/2022/11/Mechanical-Components-3.jpg",
   },
   {
-    id: 32,
-    title: "AI Healthcare Robot",
-    subtitle: "Patient Assistance",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+    id: 11,
+    title: "E-Bikes Parts",
+    subtitle: "Beginner Friendly",
+    imageUrl: "https://robu.in/wp-content/uploads/2022/11/E-Bikes-2.jpg",
   },
   {
-    id: 33,
-    title: "AI Agricultural Robot",
-    subtitle: "Precision Farming",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
-  },
-  {
-    id: 34,
-    title: "AI Industrial Robot",
-    subtitle: "Automated Manufacturing",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
-  },
-  {
-    id: 35,
-    title: "AI Research Robot",
-    subtitle: "For Laboratories",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
-  },
-  {
-    id: 36,
-    title: "AI Retail Robot",
-    subtitle: "Customer Assistance",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
-  },
-  {
-    id: 37,
-    title: "AI Warehouse Robot",
-    subtitle: "Inventory Management",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
-  },
-  {
-    id: 38,
-    title: "AI Construction Robot",
-    subtitle: "Automated Building",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
-  },
-  {
-    id: 39,
-    title: "AI Exploration Robot",
-    subtitle: "For Space Missions",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
-  },
-  {
-    id: 40,
-    title: "AI Entertainment Robot",
-    subtitle: "Interactive Play",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
-  },
-  {
-    id: 41,
-    title: "AI Personal Assistant Robot",
-    subtitle: "Voice Controlled",
-    imageUrl:
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+    id: 12,
+    title: "DIY Kits",
+    subtitle: "Beginner Friendly",
+    imageUrl: "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
   },
 ];
