@@ -1,6 +1,6 @@
 export function TopBar() {
   return (
-    <div className="w-full bg-purple-500 text-white text-sm">
+    <div className="w-full bg-purple-700 text-white text-sm">
       <div className="container mx-auto px-4 flex justify-between items-center h-8">
         <div>Ready for future technology</div>
         <div className="flex items-center gap-4">
