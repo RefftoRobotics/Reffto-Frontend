@@ -5,7 +5,7 @@ export interface Product {
   imageUrl: string;
 }
 
-export const products: Product[] = [
+export const productCategories: Product[] = [
   {
     id: 1,
     title: "Development-boards",
@@ -83,5 +83,102 @@ export const products: Product[] = [
     title: "DIY Kits",
     subtitle: "Beginner Friendly",
     imageUrl: "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+  },
+];
+
+export const droneParts: Product[] = [
+  {
+    id: 1,
+    title: "Quadcopter Frame A",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 2,
+    title: "Quadcopter Frame B",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 3,
+    title: "Quadcopter Frame C",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 4,
+    title: "Quadcopter Frame D",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 5,
+    title: "Quadcopter Frame E",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 6,
+    title: "Quadcopter Frame F",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 7,
+    title: "Quadcopter Frame G",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 8,
+    title: "Quadcopter Frame H",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+];
+
+export const sensorModules: Product[] = [
+  {
+    id: 1,
+    title: "Temperature Sensor",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 2,
+    title: "Humidity Sensor",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 3,
+    title: "Pressure Sensor",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 4,
+    title: "Proximity Sensor",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
+  },
+  {
+    id: 5,
+    title: "Light Sensor",
+    subtitle: "Beginner Friendly",
+    imageUrl:
+      "https://support.dronelink.com/hc/article_attachments/26113037783955",
   },
 ];
