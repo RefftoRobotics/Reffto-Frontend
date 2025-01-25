@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import NavbarLayout from "./components/Layouts/NavbarLayout";
 import Home from "./pages/Home";
-import Product from "./pages/Product";
+import ProductPage from "./pages/ProductPage";
 
 export default function App() {
   return (
@@ -9,7 +9,7 @@ export default function App() {
       <NavbarLayout />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/product" element={<Product />} />
+        <Route path="/product/:productId" element={<ProductPage />} />
       </Routes>
     </>
   );

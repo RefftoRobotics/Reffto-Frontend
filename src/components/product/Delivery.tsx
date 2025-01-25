@@ -1,7 +1,10 @@
 import { Button } from "../ui/Button";
 import { Input } from "../ui/Input";
-
-export default function Delivery() {
+import { Product } from "../../data/product";
+interface ProductCardProps {
+  product: Product;
+}
+export default function Delivery({ product }: ProductCardProps) {
   return (
     <div className="space-y-4">
       <div className="font-medium">Delivery</div>

@@ -1,6 +1,10 @@
 import { ChevronRight } from "lucide-react";
+import { Product } from "../../data/product";
 
-export default function Guarantee() {
+interface ProductCardProps {
+  product: Product;
+}
+export default function Guarantee({ product }: ProductCardProps) {
   return (
     <div className="flex items-center gap-2 text-sm border-t pt-4">
       <span className="font-medium">Reffto Guarantee</span>
