@@ -34,10 +34,10 @@ export default function ProductPage() {
           <h1 className="text-2xl font-semibold">{product.title}</h1>
           <Rating product={product} />
           <Price product={product} />
-          <Action product={product} />
-          <Delivery product={product} />
+          <Action />
+          <Delivery />
           <Specifications product={product} />
-          <Guarantee product={product} />
+          <Guarantee />
         </div>
       </div>
       <CustomerReviews product={product} />
