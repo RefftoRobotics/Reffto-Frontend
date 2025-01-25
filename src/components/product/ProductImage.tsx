@@ -1,16 +1,14 @@
 import { useState, useRef } from "react";
+import { Product } from "../../data/product";
+interface ProductCardProps {
+  product: Product;
+}
 
-export default function ProductImage() {
+export default function ProductImage({ product }: ProductCardProps) {
   const [selectedImage, setSelectedImage] = useState(0);
   const [isZoomed, setIsZoomed] = useState(false);
   const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
   const imageRef = useRef<HTMLDivElement>(null);
-  const images = [
-    "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
-    "https://robu.in/wp-content/uploads/2022/11/Lithium-Ion-Battery-1-2.jpg",
-    "https://robu.in/wp-content/uploads/2022/11/Drone-kits.jpg",
-    "https://robu.in/wp-content/uploads/2022/11/Sensors.jpg",
-  ];
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>): void => {
     if (!imageRef.current) return;
@@ -26,7 +24,7 @@ export default function ProductImage() {
     <div className="flex flex-col md:flex-row gap-4">
       {/* Thumbnails */}
       <div className="flex md:flex-col gap-2">
-        {images.map((img, index) => (
+        {product.imageUrl.map((img, index) => (
           <div
             key={index}
             className={`border-2 cursor-pointer w-20 h-20 ${
@@ -54,7 +52,7 @@ export default function ProductImage() {
         onMouseMove={handleMouseMove}
       >
         <img
-          src={images[selectedImage] || "/placeholder.svg"}
+          src={product.imageUrl[selectedImage] || "/placeholder.svg"}
           alt="Product main view"
           width={500}
           height={500}

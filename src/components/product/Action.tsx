@@ -1,6 +1,9 @@
 import { Button } from "../ui/Button";
-
-export default function Action() {
+import { Product } from "../../data/product";
+interface ProductCardProps {
+  product: Product;
+}
+export default function Action({ product }: ProductCardProps) {
   return (
     <div className="flex flex-col md:flex-row gap-4">
       <Button className="flex-1 border border-gray-800 text-gray-800 bg-gray-100 hover:bg-gray-200">
