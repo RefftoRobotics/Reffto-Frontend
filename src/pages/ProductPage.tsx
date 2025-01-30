@@ -27,7 +27,7 @@ export default function ProductPage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-screen-xl max-h-screen">
+    <div className="container mx-auto px-4 py-8 max-w-screen-xl max-h-full">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
         <ProductImage product={product} />
         <div className="space-y-6">
