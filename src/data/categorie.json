@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "categoriestitle": "Robotics",
+    "categoriestitle": "Product Categories",
     "subcategories": [
       {
         "id": 101,
@@ -12,26 +12,188 @@
       {
         "id": 102,
         "subcategoriestitle": "Educational Robots",
-        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Lithium-Ion-Battery-1-2.jpg",
         "subtitle": "Learning & Development Kits"
+      },
+      {
+        "id": 103,
+        "subcategoriestitle": "Humanoid Robots",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Drone-kits.jpg",
+        "subtitle": "Human-like Robots"
+      },
+      {
+        "id": 104,
+        "subcategoriestitle": "Agriculture Robots",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Sensors.jpg",
+        "subtitle": "Farming & Harvesting Robots"
+      },
+      {
+        "id": 105,
+        "subcategoriestitle": "Medical Robots",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Motors.jpg",
+        "subtitle": "Healthcare & Surgery Robots"
+      },
+      {
+        "id": 106,
+        "subcategoriestitle": "Service Robots",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/IoT-Wireless-2.jpg",
+        "subtitle": "Hospitality & Customer Service Robots"
+      },
+      {
+        "id": 107,
+        "subcategoriestitle": "Military Robots",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Electronic-Components-3.jpg",
+        "subtitle": "Defense & Security Robots"
+      },
+      {
+        "id": 108,
+        "subcategoriestitle": "Entertainment Robots",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Electronic-Components-2-1.jpg",
+        "subtitle": "Fun & Interactive Robots"
+      },
+      {
+        "id": 109,
+        "subcategoriestitle": "Sports Robots",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/3D-Printer-Parts-2.jpg",
+        "subtitle": "Athletic & Gaming Robots"
+      },
+      {
+        "id": 110,
+        "subcategoriestitle": "Domestic Robots",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Mechanical-Components-3.jpg",
+        "subtitle": "Household & Personal Robots"
       }
     ]
   },
   {
     "id": 2,
-    "categoriestitle": "Drones",
+    "categoriestitle": "Drones Parts",
     "subcategories": [
       {
         "id": 201,
-        "subcategoriestitle": "Camera Drones",
-        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+        "subcategoriestitle": "Development-boards",
+        "imgUrl": "https://support.dronelink.com/hc/article_attachments/26113037783955",
         "subtitle": "Aerial Photography & Videography"
       },
       {
         "id": 202,
         "subcategoriestitle": "Racing Drones",
-        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+        "imgUrl": "https://support.dronelink.com/hc/article_attachments/26113037783955",
         "subtitle": "High-Speed FPV Racing"
+      },
+      {
+        "id": 203,
+        "subcategoriestitle": "Flight Controllers",
+        "imgUrl": "https://support.dronelink.com/hc/article_attachments/26113037783955",
+        "subtitle": "Navigation & Stabilization"
+      },
+      {
+        "id": 204,
+        "subcategoriestitle": "Motors & ESCs",
+        "imgUrl": "https://support.dronelink.com/hc/article_attachments/26113037783955",
+        "subtitle": "Power & Propulsion"
+      },
+      {
+        "id": 205,
+        "subcategoriestitle": "Frames & Bodies",
+        "imgUrl": "https://support.dronelink.com/hc/article_attachments/26113037783955",
+        "subtitle": "Structure & Aerodynamics"
+      },
+      {
+        "id": 206,
+        "subcategoriestitle": "Batteries & Chargers",
+        "imgUrl": "https://support.dronelink.com/hc/article_attachments/26113037783955",
+        "subtitle": "Power & Energy"
+      },
+      {
+        "id": 207,
+        "subcategoriestitle": "Propellers & Accessories",
+        "imgUrl": "https://support.dronelink.com/hc/article_attachments/26113037783955",
+        "subtitle": "Thrust & Control"
+      },
+      {
+        "id": 208,
+        "subcategoriestitle": "FPV & Video Equipment",
+        "imgUrl": "https://support.dronelink.com/hc/article_attachments/26113037783955",
+        "subtitle": "First-Person View Systems"
+      },
+      {
+        "id": 209,
+        "subcategoriestitle": "Radio Transmitters & Receivers",
+        "imgUrl": "https://support.dronelink.com/hc/article_attachments/26113037783955",
+        "subtitle": "Remote Control Systems"
+      },
+      {
+        "id": 210,
+        "subcategoriestitle": "Tools & Accessories",
+        "imgUrl": "https://support.dronelink.com/hc/article_attachments/26113037783955",
+        "subtitle": "Maintenance & Upgrades"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "categoriestitle": "Sensor Modules",
+    "subcategories": [
+      {
+        "id": 301,
+        "subcategoriestitle": "Camera Drones",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+        "subtitle": "Aerial Photography & Videography"
+      },
+      {
+        "id": 302,
+        "subcategoriestitle": "Racing Drones",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+        "subtitle": "High-Speed FPV Racing"
+      },
+      {
+        "id": 303,
+        "subcategoriestitle": "Flight Controllers",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+        "subtitle": "Navigation & Stabilization"
+      },
+      {
+        "id": 304,
+        "subcategoriestitle": "Motors & ESCs",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+        "subtitle": "Power & Propulsion"
+      },
+      {
+        "id": 305,
+        "subcategoriestitle": "Frames & Bodies",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+        "subtitle": "Structure & Aerodynamics"
+      },
+      {
+        "id": 306,
+        "subcategoriestitle": "Batteries & Chargers",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+        "subtitle": "Power & Energy"
+      },
+      {
+        "id": 307,
+        "subcategoriestitle": "Propellers & Accessories",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+        "subtitle": "Thrust & Control"
+      },
+      {
+        "id": 308,
+        "subcategoriestitle": "FPV & Video Equipment",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+        "subtitle": "First-Person View Systems"
+      },
+      {
+        "id": 309,
+        "subcategoriestitle": "Radio Transmitters & Receivers",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+        "subtitle": "Remote Control Systems"
+      },
+      {
+        "id": 310,
+        "subcategoriestitle": "Tools & Accessories",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/DIY-kits-2-1.jpg",
+        "subtitle": "Maintenance & Upgrades"
       }
     ]
   }

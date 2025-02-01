@@ -74,6 +74,286 @@
           "rating": 4.6,
           "reviews": 89
         }
+      },
+      {
+        "id": 10103,
+        "title": "Flight Controller",
+        "subtitle": "Quadcopter Control Board",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 49.99,
+          "discount": 5,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Processor",
+            "value": "STM32F405"
+          },
+          {
+            "label": "Gyroscope",
+            "value": "MPU6000"
+          },
+          {
+            "label": "Features",
+            "value": "Betaflight OSD"
+          }
+        ],
+        "productRating": {
+          "star": 4.5,
+          "rating": 4.5,
+          "reviews": 72
+        }
+      },
+      {
+        "id": 10104,
+        "title": "Brushless Motor",
+        "subtitle": "High-Speed Quadcopter Motor",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 19.99,
+          "discount": 2,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "KV Rating",
+            "value": "2300KV"
+          },
+          {
+            "label": "Weight",
+            "value": "30g"
+          },
+          {
+            "label": "Features",
+            "value": "N52 Magnets"
+          }
+        ],
+        "productRating": {
+          "star": 4.3,
+          "rating": 4.3,
+          "reviews": 98
+        }
+      },
+      {
+        "id": 10105,
+        "title": "Carbon Fiber Frame",
+        "subtitle": "Lightweight Drone Frame",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 29.99,
+          "discount": 3,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Size",
+            "value": "250mm"
+          },
+          {
+            "label": "Material",
+            "value": "Carbon Fiber"
+          },
+          {
+            "label": "Weight",
+            "value": "100g"
+          }
+        ],
+        "productRating": {
+          "star": 4.2,
+          "rating": 4.2,
+          "reviews": 65
+        }
+      },
+      {
+        "id": 10106,
+        "title": "FPV Goggles",
+        "subtitle": "First Person View Glasses",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 99.99,
+          "discount": 10,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Resolution",
+            "value": "800x600"
+          },
+          {
+            "label": "Field of View",
+            "value": "120°"
+          },
+          {
+            "label": "Features",
+            "value": "DVR Recording"
+          }
+        ],
+        "productRating": {
+          "star": 4.1,
+          "rating": 4.1,
+          "reviews": 54
+        }
+      },
+      {
+        "id": 10107,
+        "title": "LiPo Battery",
+        "subtitle": "High-Performance Drone Battery",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 39.99,
+          "discount": 4,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Capacity",
+            "value": "1300mAh"
+          },
+          {
+            "label": "Voltage",
+            "value": "14.8V"
+          },
+          {
+            "label": "Discharge",
+            "value": "75C"
+          }
+        ],
+        "productRating": {
+          "star": 4.0,
+          "rating": 4.0,
+          "reviews": 43
+        }
+      },
+      {
+        "id": 10108,
+        "title": "Propeller Set",
+        "subtitle": "Quadcopter Propellers",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 9.99,
+          "discount": 1,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Size",
+            "value": "5 inch"
+          },
+          {
+            "label": "Material",
+            "value": "Carbon Fiber"
+          },
+          {
+            "label": "Pitch",
+            "value": "5045"
+          }
+        ],
+        "productRating": {
+          "star": 3.9,
+          "rating": 3.9,
+          "reviews": 36
+        }
+      },
+      {
+        "id": 10109,
+        "title": "Drone Frame Kit",
+        "subtitle": "DIY Quadcopter Frame",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 19.99,
+          "discount": 2,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Size",
+            "value": "250mm"
+          },
+          {
+            "label": "Material",
+            "value": "Carbon Fiber"
+          },
+          {
+            "label": "Weight",
+            "value": "100g"
+          }
+        ],
+        "productRating": {
+          "star": 3.8,
+          "rating": 3.8,
+          "reviews": 29
+        }
+      },
+      {
+        "id": 10110,
+        "title": "Drone Flight Controller",
+        "subtitle": "Quadcopter Control Board",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 49.99,
+          "discount": 5,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Processor",
+            "value": "STM32F405"
+          },
+          {
+            "label": "Gyroscope",
+            "value": "MPU6000"
+          },
+          {
+            "label": "Features",
+            "value": "Betaflight OSD"
+          }
+        ],
+        "productRating": {
+          "star": 3.7,
+          "rating": 3.7,
+          "reviews": 22
+        }
       }
     ]
   },
@@ -151,6 +431,539 @@
           "star": 4.4,
           "rating": 4.4,
           "reviews": 167
+        }
+      },
+      {
+        "id": 10203,
+        "title": "STEM Robotics Kit",
+        "subtitle": "Science & Technology Kit",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 99.99,
+          "discount": 10,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Components",
+            "value": "Arduino, Sensors, Motors"
+          },
+          {
+            "label": "Projects",
+            "value": "10+ STEM Projects"
+          },
+          {
+            "label": "Programming",
+            "value": "Scratch, Python"
+          }
+        ],
+        "productRating": {
+          "star": 4.3,
+          "rating": 4.3,
+          "reviews": 98
+        }
+      },
+      {
+        "id": 10204,
+        "title": "DIY Robotics Kit",
+        "subtitle": "Build Your Own Robot",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 49.99,
+          "discount": 5,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Components",
+            "value": "Chassis, Motors, Wheels"
+          },
+          {
+            "label": "Projects",
+            "value": "5+ DIY Projects"
+          },
+          {
+            "label": "Programming",
+            "value": "Arduino IDE Compatible"
+          }
+        ],
+        "productRating": {
+          "star": 4.2,
+          "rating": 4.2,
+          "reviews": 65
+        }
+      },
+      {
+        "id": 10205,
+        "title": "Robotic Arm Kit",
+        "subtitle": "Mechanical Arm Robotics",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 69.99,
+          "discount": 7,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Joints",
+            "value": "4 DOF"
+          },
+          {
+            "label": "Material",
+            "value": "Acrylic"
+          },
+          {
+            "label": "Control",
+            "value": "Wired Remote"
+          }
+        ],
+        "productRating": {
+          "star": 4.1,
+          "rating": 4.1,
+          "reviews": 54
+        }
+      },
+      {
+        "id": 10206,
+        "title": "Robotics Learning Kit",
+        "subtitle": "STEM Education Kit",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 39.99,
+          "discount": 4,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Components",
+            "value": "Arduino, Sensors, Motors"
+          },
+          {
+            "label": "Projects",
+            "value": "5+ Robotics Projects"
+          },
+          {
+            "label": "Programming",
+            "value": "Scratch, Python"
+          }
+        ],
+        "productRating": {
+          "star": 4.0,
+          "rating": 4.0,
+          "reviews": 43
+        }
+      },
+      {
+        "id": 10207,
+        "title": "Robotics Starter Kit",
+        "subtitle": "Beginner Robotics Kit",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 19.99,
+          "discount": 2,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Components",
+            "value": "Chassis, Motors, Wheels"
+          },
+          {
+            "label": "Projects",
+            "value": "3+ DIY Projects"
+          },
+          {
+            "label": "Programming",
+            "value": "Arduino IDE Compatible"
+          }
+        ],
+        "productRating": {
+          "star": 3.9,
+          "rating": 3.9,
+          "reviews": 36
+        }
+      },
+      {
+        "id": 10208,
+        "title": "Robotics Project Kit",
+        "subtitle": "Advanced Robotics Kit",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 9.99,
+          "discount": 1,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Components",
+            "value": "Chassis, Motors, Wheels"
+          },
+          {
+            "label": "Projects",
+            "value": "1+ DIY Projects"
+          },
+          {
+            "label": "Programming",
+            "value": "Arduino IDE Compatible"
+          }
+        ],
+        "productRating": {
+          "star": 3.8,
+          "rating": 3.8,
+          "reviews": 29
+        }
+      },
+      {
+        "id": 10209,
+        "title": "Robotics Development Kit",
+        "subtitle": "Professional Robotics Kit",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 4.99,
+          "discount": 0.5,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Components",
+            "value": "Chassis, Motors, Wheels"
+          },
+          {
+            "label": "Projects",
+            "value": "1+ DIY Projects"
+          },
+          {
+            "label": "Programming",
+            "value": "Arduino IDE Compatible"
+          }
+        ],
+        "productRating": {
+          "star": 3.7,
+          "rating": 3.7,
+          "reviews": 22
+        }
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "subcategoriestitle": "Humanoid Robots",
+    "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+    "subtitle": "Human-like Robots",
+    "subproducts": [
+      {
+        "id": 10301,
+        "title": "Humanoid Robot",
+        "subtitle": "AI-enabled Humanoid Robot",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 999.99,
+          "discount": 100,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Height",
+            "value": "40cm"
+          },
+          {
+            "label": "Weight",
+            "value": "2kg"
+          },
+          {
+            "label": "Features",
+            "value": "Voice Control, Gesture Recognition"
+          }
+        ],
+        "productRating": {
+          "star": 4.8,
+          "rating": 4.8,
+          "reviews": 256
+        }
+      },
+      {
+        "id": 10302,
+        "title": "Robotic Companion",
+        "subtitle": "Personal Assistant Robot",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 499.99,
+          "discount": 50,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Height",
+            "value": "30cm"
+          },
+          {
+            "label": "Weight",
+            "value": "1.5kg"
+          },
+          {
+            "label": "Features",
+            "value": "Voice Control, Face Recognition"
+          }
+        ],
+        "productRating": {
+          "star": 4.6,
+          "rating": 4.6,
+          "reviews": 89
+        }
+      },
+      {
+        "id": 10303,
+        "title": "Humanoid Assistant",
+        "subtitle": "AI-powered Humanoid Robot",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 299.99,
+          "discount": 30,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Height",
+            "value": "25cm"
+          },
+          {
+            "label": "Weight",
+            "value": "1kg"
+          },
+          {
+            "label": "Features",
+            "value": "Voice Control, Face Recognition"
+          }
+        ],
+        "productRating": {
+          "star": 4.5,
+          "rating": 4.5,
+          "reviews": 72
+        }
+      },
+      {
+        "id": 10304,
+        "title": "Humanoid Robotic Arm",
+        "subtitle": "Mechanical Arm Robotics",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 199.99,
+          "discount": 20,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Joints",
+            "value": "4 DOF"
+          },
+          {
+            "label": "Material",
+            "value": "Acrylic"
+          },
+          {
+            "label": "Control",
+            "value": "Wired Remote"
+          }
+        ],
+        "productRating": {
+          "star": 4.3,
+          "rating": 4.3,
+          "reviews": 98
+        }
+      },
+      {
+        "id": 10305,
+        "title": "Humanoid Robot Kit",
+        "subtitle": "DIY Humanoid Robotics Kit",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 99.99,
+          "discount": 10,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Height",
+            "value": "20cm"
+          },
+          {
+            "label": "Weight",
+            "value": "0.5kg"
+          },
+          {
+            "label": "Features",
+            "value": "Voice Control, Gesture Recognition"
+          }
+        ],
+        "productRating": {
+          "star": 4.2,
+          "rating": 4.2,
+          "reviews": 65
+        }
+      },
+      {
+        "id": 10306,
+        "title": "Humanoid Robotics Kit",
+        "subtitle": "Advanced Humanoid Robotics Kit",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 49.99,
+          "discount": 5,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Height",
+            "value": "15cm"
+          },
+          {
+            "label": "Weight",
+            "value": "0.3kg"
+          },
+          {
+            "label": "Features",
+            "value": "Voice Control, Gesture Recognition"
+          }
+        ],
+        "productRating": {
+          "star": 4.1,
+          "rating": 4.1,
+          "reviews": 54
+        }
+      },
+      {
+        "id": 10307,
+        "title": "Humanoid Robotics Development Kit",
+        "subtitle": "Professional Humanoid Robotics Kit",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 29.99,
+          "discount": 3,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Height",
+            "value": "10cm"
+          },
+          {
+            "label": "Weight",
+            "value": "0.2kg"
+          },
+          {
+            "label": "Features",
+            "value": "Voice Control, Gesture Recognition"
+          }
+        ],
+        "productRating": {
+          "star": 4.0,
+          "rating": 4.0,
+          "reviews": 43
+        }
+      },
+      {
+        "id": 10308,
+        "title": "Humanoid Robotics Project Kit",
+        "subtitle": "DIY Humanoid Robotics Kit",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 19.99,
+          "discount": 2,
+          "discountPercentage": 10
+        },
+        "specifications": [
+          {
+            "label": "Height",
+            "value": "5cm"
+          },
+          {
+            "label": "Weight",
+            "value": "0.1kg"
+          },
+          {
+            "label": "Features",
+            "value": "Voice Control, Gesture Recognition"
+          }
+        ],
+        "productRating": {
+          "star": 3.9,
+          "rating": 3.9,
+          "reviews": 36
         }
       }
     ]

@@ -519,7 +519,6 @@ export const droneParts: Product[] = [
     title: "Quadcopter Frame A",
     subtitle: "Beginner Friendly",
     imageUrl: [
-      "https://support.dronelink.com/hc/article_attachments/26113037783955",
     ],
     customerreviews: [],
   },
