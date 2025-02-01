@@ -13,35 +13,34 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-white">
-      <div className="container mx-auto p-4 sm:p-6">
+    <footer className="w-full bg-white py-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Grid */}
-        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-          {/* Logo and Contact Section - Full width on mobile */}
-          <div className="col-span-1 ">
-            <Link to="/" className="block mb-4">
+        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mb-8 text-center">
+          {/* Logo and Contact Section - Full width on mobile, larger content */}
+          <div className="col-span-2 lg:col-span-1 space-y-6 mb-8 lg:mb-0">
+            <Link to="/" className="block">
               <img
-                src={RefftoLogo}
+                src={RefftoLogo || "/placeholder.svg"}
                 alt="Reffto Logo"
-                width={200}
-                height={60}
-                className="h-12 w-auto"
+                width={240}
+                height={84}
+                className="h-16 w-auto"
               />
-              <p className="text-indigo-700 text-sm mt-1">
+              <p className="text-indigo-700 text-lg mt-2">
                 Your Ideas, Our Parts
               </p>
             </Link>
 
             {/* Contact Info */}
-            <div className="flex items-start space-x-2 mb-4">
-              <MdHeadsetMic className="h-5 w-5 mt-1 flex-shrink-0 text-gray-600" />
+            <div className="flex items-start space-x-4">
+              <MdHeadsetMic className="h-8 w-8 mt-1 flex-shrink-0 text-gray-600" />
               <div>
-                <p className="text-sm text-gray-600">Need help? Call us on </p>
-                <p className="text-lg font-semibold break-words">
+                <p className="text-lg text-gray-600">Need help? Call us on </p>
+                <p className="text-2xl font-semibold break-words">
                   <a href="tel:18002666123" className="hover:text-indigo-700">
                     98765
-                  </a>
-                  ,{" "}
+                  </a>{" "}
                   <a href="tel:02068197600" className="hover:text-indigo-700">
                     43210
                   </a>
@@ -50,51 +49,49 @@ export default function Footer() {
             </div>
 
             {/* Social Media Icons */}
-            <div className="flex flex-wrap gap-4 mt-4">
+            <div className="flex flex-wrap gap-5">
               <Link
                 to="#"
                 className="text-gray-600 hover:text-indigo-700 transition-colors"
               >
-                <FaFacebookF className="h-5 w-5" />
+                <FaFacebookF className="h-7 w-7" />
                 <span className="sr-only">Facebook</span>
               </Link>
               <Link
                 to="#"
                 className="text-gray-600 hover:text-indigo-700 transition-colors"
               >
-                <FaTwitter className="h-5 w-5" />
+                <FaTwitter className="h-7 w-7" />
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
                 to="#"
                 className="text-gray-600 hover:text-indigo-700 transition-colors"
               >
-                <FaLinkedinIn className="h-5 w-5" />
+                <FaLinkedinIn className="h-7 w-7" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
                 to="#"
                 className="text-gray-600 hover:text-indigo-700 transition-colors"
               >
-                <FaInstagram className="h-5 w-5" />
+                <FaInstagram className="h-7 w-7" />
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link
                 to="#"
                 className="text-gray-600 hover:text-indigo-700 transition-colors"
               >
-                <FaYoutube className="h-5 w-5" />
+                <FaYoutube className="h-7 w-7" />
                 <span className="sr-only">YouTube</span>
               </Link>
             </div>
           </div>
 
           {/* Information Column */}
-          <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4 text-gray-900">
-              Information
-            </h3>
-            <ul className="space-y-3">
+          <div className="col-span-1 space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">Information</h3>
+            <ul className="space-y-2">
               <li>
                 <Link
                   to="/track-order"
@@ -131,11 +128,9 @@ export default function Footer() {
           </div>
 
           {/* My Account Column */}
-          <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4 text-gray-900">
-              My Account
-            </h3>
-            <ul className="space-y-3">
+          <div className="col-span-1 space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">My Account</h3>
+            <ul className="space-y-2">
               <li>
                 <Link
                   to="/cart"
@@ -172,11 +167,9 @@ export default function Footer() {
           </div>
 
           {/* Services Column */}
-          <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4 text-gray-900">
-              Services
-            </h3>
-            <ul className="space-y-3">
+          <div className="col-span-1 space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">Services</h3>
+            <ul className="space-y-2">
               <li>
                 <Link
                   to="/about-us"
@@ -205,11 +198,9 @@ export default function Footer() {
           </div>
 
           {/* Policies Column */}
-          <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4 text-gray-900">
-              Policies
-            </h3>
-            <ul className="space-y-3">
+          <div className="col-span-1 space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">Policies</h3>
+            <ul className="space-y-2">
               <li>
                 <Link
                   to="/investor-relations"
@@ -261,21 +252,21 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4 text-gray-900">
+          <div className="col-span-1 space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">
               Download Our App
             </h3>
-            <div className="flex flex-col space-y-3">
+            <div className="flex flex-col space-y-3 justify-center items-center">
               <Link
                 to="#"
                 className="inline-block transition-transform hover:scale-105"
               >
                 <img
-                  src={PlayStore}
+                  src={PlayStore || "/placeholder.svg"}
                   alt="Download on Google Play"
-                  width={50}
-                  height={45}
-                  className="h-auto w-full"
+                  width={135}
+                  height={40}
+                  className="h-auto w-[135px]"
                 />
               </Link>
               <Link
@@ -283,11 +274,11 @@ export default function Footer() {
                 className="inline-block transition-transform hover:scale-105"
               >
                 <img
-                  src={AppStore}
+                  src={AppStore || "/placeholder.svg"}
                   alt="Download on App Store"
-                  width={150}
-                  height={45}
-                  className="h-auto w-full"
+                  width={135}
+                  height={40}
+                  className="h-auto w-[135px]"
                 />
               </Link>
             </div>
@@ -295,8 +286,8 @@ export default function Footer() {
         </div>
 
         {/* Copyright - Full width */}
-        <div className="mt-2 pt-8 border-t border-gray-200">
-          <p className="text-sm text-gray-600 text-center sm:text-left">
+        <div className=" border-t border-gray-200 flex flex-col items-center justify-center space-y-4">
+          <p className="text-sm text-gray-600 sm:text-left">
             © Reffto is registered trademark of REFFTO LIMITED - All Rights
             Reserved
           </p>
