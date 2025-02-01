@@ -1,46 +1,44 @@
 import { useParams } from "react-router-dom";
 import Action from "../components/product/Action";
-import CustomerReviews from "../components/product/CustomerReviews";
+// import CustomerReviews from "../components/product/CustomerReviews";
 import Delivery from "../components/product/Delivery";
 import Guarantee from "../components/product/Guarantee";
 import Price from "../components/product/Price";
 import ProductImage from "../components/product/ProductImage";
 import Rating from "../components/product/Rating";
 import Specifications from "../components/product/Specifications";
-import { productCategories, droneParts, sensorModules } from "../data/product";
+import { useAppContext } from "../context/AppContext";
 
 export default function ProductPage() {
-  const { productId } = useParams<{ productId: string }>();
-  const sections = [
-    { data: productCategories },
-    { data: droneParts },
-    { data: sensorModules },
-  ];
+  const { products } = useAppContext();
+  const { categoriesId, productsId } = useParams();
 
-  // Find the product with the matching productId
-  const product = sections
-    .flatMap((section) => section.data)
-    .find((product) => product.id === Number(productId));
+  const filteredProducts = products.filter(
+    (product) => product.id === Number(categoriesId)
+  );
+  const product = filteredProducts
+    .map((section) =>
+      section.subproducts.filter((product) => product.id === Number(productsId))
+    )
+    .flat()[0];
 
-  if (!product) {
-    return <div>Product not found</div>;
-  }
+  console.log(product);
 
   return (
     <div className="container mx-auto px-4 py-8 max-w-screen-xl max-h-full">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-        <ProductImage product={product} />
+        <ProductImage data={product.imageUrls} />
         <div className="space-y-6">
           <h1 className="text-2xl font-semibold">{product.title}</h1>
-          <Rating product={product} />
-          <Price product={product} />
+          <Rating data={product.productRating} />
+          <Price data={product.price} />
           <Action />
           <Delivery />
-          <Specifications product={product} />
+          <Specifications data={product.specifications} />
           <Guarantee />
         </div>
       </div>
-      <CustomerReviews product={product} />
+      {/* <CustomerReviews product={product.} /> */}
     </div>
   );
 }

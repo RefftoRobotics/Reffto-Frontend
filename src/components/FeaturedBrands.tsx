@@ -3,59 +3,69 @@ import { Link } from "react-router-dom";
 import RefftoLogo from "../assets/refftologo.png";
 
 interface Brand {
+  id: number;
   name: string;
   logo: string;
   url: string;
 }
 
 const brands: Brand[] = [
-
   {
+    id: 1,
     name: "Arduino",
     logo: RefftoLogo,
     url: "#",
   },
   {
+    id: 2,
     name: "Arduino",
     logo: RefftoLogo,
     url: "#",
   },
   {
+    id: 3,
     name: "Arduino",
     logo: RefftoLogo,
     url: "#",
   },
   {
+    id: 4,
     name: "Arduino",
     logo: RefftoLogo,
     url: "#",
   },
   {
+    id: 5,
     name: "Arduino",
     logo: RefftoLogo,
     url: "#",
   },
   {
+    id: 6,
     name: "Arduino",
     logo: RefftoLogo,
     url: "#",
   },
   {
+    id: 7,
     name: "Arduino",
     logo: RefftoLogo,
     url: "#",
   },
   {
+    id: 8,
     name: "Arduino",
     logo: RefftoLogo,
     url: "#",
   },
   {
+    id: 9,
     name: "Arduino",
     logo: RefftoLogo,
     url: "#",
   },
   {
+    id: 10,
     name: "Arduino",
     logo: RefftoLogo,
     url: "#",
@@ -81,7 +91,7 @@ export default function FeaturedBrands() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
           {brands.map((brand) => (
             <motion.div
-              key={brand.name}
+              key={brand.id}
               whileHover={{ scale: 1.05 }}
               className="relative group"
             >

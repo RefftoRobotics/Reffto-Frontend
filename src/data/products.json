@@ -1,14 +1,14 @@
 [
   {
     "id": 101,
-    "subcategoriestitle": "Patna",
+    "subcategoriestitle": "Industrial Robots",
     "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
-    "subtitle": "Capital of Bihar",
+    "subtitle": "Automation & Manufacturing Robots",
     "subproducts": [
       {
         "id": 10101,
-        "title": "block1",
-        "subtitle": "Noise Cancelling Bluetooth Headset",
+        "title": "DJI Mini 3 Pro",
+        "subtitle": "Lightweight Camera Drone",
         "imageUrls": [
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
@@ -16,34 +16,34 @@
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
         ],
         "price": {
-          "mrp": 299.99,
-          "discount": 50,
-          "discountPercentage": 16.67
+          "mrp": 999.99,
+          "discount": 100,
+          "discountPercentage": 10
         },
         "specifications": [
           {
-            "label": "Battery Life",
-            "value": "Up to 30 hours"
+            "label": "Flight Time",
+            "value": "Up to 34 minutes"
           },
           {
-            "label": "Connectivity",
-            "value": "Bluetooth 5.0"
+            "label": "Camera",
+            "value": "4K/60fps"
           },
           {
-            "label": "Color",
-            "value": "Matte Black"
+            "label": "Weight",
+            "value": "249g"
           }
         ],
         "productRating": {
-          "star": 4.5,
-          "rating": 4.5,
-          "reviews": 128
+          "star": 4.8,
+          "rating": 4.8,
+          "reviews": 256
         }
       },
       {
         "id": 10102,
-        "title": "block2",
-        "subtitle": "Noise Cancelling Bluetooth Headset",
+        "title": "Racing Drone Kit",
+        "subtitle": "DIY FPV Racing Drone",
         "imageUrls": [
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
@@ -51,42 +51,42 @@
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
         ],
         "price": {
-          "mrp": 299.99,
+          "mrp": 399.99,
           "discount": 50,
-          "discountPercentage": 16.67
+          "discountPercentage": 12.5
         },
         "specifications": [
           {
-            "label": "Battery Life",
-            "value": "Up to 30 hours"
+            "label": "Frame Size",
+            "value": "5 inch"
           },
           {
-            "label": "Connectivity",
-            "value": "Bluetooth 5.0"
+            "label": "Motors",
+            "value": "2400KV Brushless"
           },
           {
-            "label": "Color",
-            "value": "Matte Black"
+            "label": "Controller",
+            "value": "F4 Flight Controller"
           }
         ],
         "productRating": {
-          "star": 4.5,
-          "rating": 4.5,
-          "reviews": 128
+          "star": 4.6,
+          "rating": 4.6,
+          "reviews": 89
         }
       }
     ]
   },
   {
     "id": 102,
-    "subcategoriestitle": "Gaya",
+    "subcategoriestitle": "Educational Robots",
     "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
-    "subtitle": "Historical City of Bihar",
+    "subtitle": "Learning & Development Kits",
     "subproducts": [
       {
         "id": 10201,
-        "title": "block1g",
-        "subtitle": "Noise Cancelling Bluetooth Headset",
+        "title": "Arduino Robot Kit",
+        "subtitle": "Educational Robotics Kit",
         "imageUrls": [
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
@@ -94,34 +94,34 @@
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
         ],
         "price": {
-          "mrp": 299.99,
-          "discount": 50,
-          "discountPercentage": 16.67
+          "mrp": 199.99,
+          "discount": 30,
+          "discountPercentage": 15
         },
         "specifications": [
           {
-            "label": "Battery Life",
-            "value": "Up to 30 hours"
+            "label": "Controller",
+            "value": "Arduino Uno"
           },
           {
-            "label": "Connectivity",
-            "value": "Bluetooth 5.0"
+            "label": "Sensors",
+            "value": "Line Following, Ultrasonic"
           },
           {
-            "label": "Color",
-            "value": "Matte Black"
+            "label": "Programming",
+            "value": "Arduino IDE Compatible"
           }
         ],
         "productRating": {
-          "star": 4.5,
-          "rating": 4.5,
-          "reviews": 128
+          "star": 4.7,
+          "rating": 4.7,
+          "reviews": 145
         }
       },
       {
         "id": 10202,
-        "title": "block2g",
-        "subtitle": "Noise Cancelling Bluetooth Headset",
+        "title": "Raspberry Pi Robot",
+        "subtitle": "Advanced Robotics Platform",
         "imageUrls": [
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
           "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
@@ -130,27 +130,27 @@
         ],
         "price": {
           "mrp": 299.99,
-          "discount": 50,
-          "discountPercentage": 16.67
+          "discount": 40,
+          "discountPercentage": 13.33
         },
         "specifications": [
           {
-            "label": "Battery Life",
-            "value": "Up to 30 hours"
+            "label": "Processor",
+            "value": "Raspberry Pi 4"
           },
           {
-            "label": "Connectivity",
-            "value": "Bluetooth 5.0"
+            "label": "Camera",
+            "value": "5MP Pi Camera"
           },
           {
-            "label": "Color",
-            "value": "Matte Black"
+            "label": "Features",
+            "value": "AI-enabled, WiFi Control"
           }
         ],
         "productRating": {
-          "star": 4.5,
-          "rating": 4.5,
-          "reviews": 128
+          "star": 4.4,
+          "rating": 4.4,
+          "reviews": 167
         }
       }
     ]

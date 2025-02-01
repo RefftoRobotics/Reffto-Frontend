@@ -1,10 +1,9 @@
 import { useState, useRef } from "react";
-import { Product } from "../../data/product";
 interface ProductCardProps {
-  product: Product;
+  data: string[];
 }
 
-export default function ProductImage({ product }: ProductCardProps) {
+export default function ProductImage({ data }: ProductCardProps) {
   const [selectedImage, setSelectedImage] = useState(0);
   const [isZoomed, setIsZoomed] = useState(false);
   const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
@@ -24,7 +23,7 @@ export default function ProductImage({ product }: ProductCardProps) {
     <div className="flex flex-col md:flex-row gap-4">
       {/* Thumbnails */}
       <div className="flex md:flex-col gap-2">
-        {product.imageUrl.map((img, index) => (
+        {data.map((img, index) => (
           <div
             key={index}
             className={`border-2 cursor-pointer w-20 h-20 ${
@@ -52,7 +51,7 @@ export default function ProductImage({ product }: ProductCardProps) {
         onMouseMove={handleMouseMove}
       >
         <img
-          src={product.imageUrl[selectedImage] || "/placeholder.svg"}
+          src={data[selectedImage] || "/placeholder.svg"}
           alt="Product main view"
           width={500}
           height={500}

@@ -1,15 +1,17 @@
 import { ChevronRight } from "lucide-react";
-import { Product } from "../../data/product";
 
 interface ProductCardProps {
-  product: Product;
+  data: {
+    label: string;
+    value: string;
+}[]
 }
 
-export default function Specifications({ product }: ProductCardProps) {
+export default function Specifications({ data }: ProductCardProps) {
   return (
     <div className="space-y-2">
       <div className="grid grid-cols-2 gap-4 text-sm">
-        {product.specifications?.map((spec, index) => (
+        {data.map((spec, index) => (
           <div key={index} className="space-y-2">
             <div>
               {spec.label}: {spec.value}

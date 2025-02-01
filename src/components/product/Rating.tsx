@@ -1,14 +1,15 @@
 import { Star } from "lucide-react";
-import { Product } from "../../data/product";
 
 interface ProductCardProps {
-  product: Product;
+  data: {
+    star: number;
+    rating: number;
+    reviews: number;
+  };
 }
 
-export default function Rating({ product }: ProductCardProps) {
-  const { productrating } = product;
-
-  if (!productrating) {
+export default function Rating({ data }: ProductCardProps) {
+  if (!data) {
     return null;
   }
 
@@ -20,20 +21,18 @@ export default function Rating({ product }: ProductCardProps) {
             <Star
               key={index}
               className={`w-4 h-4 ${
-                index < productrating.star
+                index < data.star
                   ? "fill-amber-400 text-primary"
                   : "fill-gray-200 text-gray-200"
               }`}
             />
           ))}
         </div>
-        <span className="ml-2 text-sm text-gray-600">
-          ({productrating.rating})
-        </span>
+        <span className="ml-2 text-sm text-gray-600">({data.rating})</span>
       </div>
       <div className="flex gap-4 text-sm text-blue-500">
-        <span>{productrating.reviews} Ratings</span>
-        <span>{productrating.selfies} Selfies</span>
+        <span>{data.reviews} Ratings</span>
+        {/* <span>{data.selfies} Selfies</span> */}
       </div>
       <button className="text-blue-500 text-sm">Have a question?</button>
     </div>

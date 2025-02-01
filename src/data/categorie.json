@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "categoriestitle": "Bihar",
+    "categoriestitle": "Robotics",
     "subcategories": [
       {
         "id": 101,
-        "subcategoriestitle": "Patna",
+        "subcategoriestitle": "Industrial Robots",
         "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
-        "subtitle": "Capital of Bihar"
+        "subtitle": "Automation & Manufacturing Robots"
       },
       {
         "id": 102,
-        "subcategoriestitle": "Gaya",
+        "subcategoriestitle": "Educational Robots",
         "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
-        "subtitle": "Historical City of Bihar"
+        "subtitle": "Learning & Development Kits"
       }
     ]
   },
   {
     "id": 2,
-    "categoriestitle": "Uttar Pradesh",
+    "categoriestitle": "Drones",
     "subcategories": [
       {
         "id": 201,
-        "subcategoriestitle": "Lucknow",
+        "subcategoriestitle": "Camera Drones",
         "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
-        "subtitle": "Capital of Uttar Pradesh"
+        "subtitle": "Aerial Photography & Videography"
       },
       {
         "id": 202,
-        "subcategoriestitle": "Varanasi",
+        "subcategoriestitle": "Racing Drones",
         "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
-        "subtitle": "Spiritual Capital of India"
+        "subtitle": "High-Speed FPV Racing"
       }
     ]
   }
