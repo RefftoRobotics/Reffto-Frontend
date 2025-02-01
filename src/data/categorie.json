@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "categoriestitle": "Bihar",
+    "subcategories": [
+      {
+        "id": 101,
+        "subcategoriestitle": "Patna",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+        "subtitle": "Capital of Bihar"
+      },
+      {
+        "id": 102,
+        "subcategoriestitle": "Gaya",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+        "subtitle": "Historical City of Bihar"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "categoriestitle": "Uttar Pradesh",
+    "subcategories": [
+      {
+        "id": 201,
+        "subcategoriestitle": "Lucknow",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+        "subtitle": "Capital of Uttar Pradesh"
+      },
+      {
+        "id": 202,
+        "subcategoriestitle": "Varanasi",
+        "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+        "subtitle": "Spiritual Capital of India"
+      }
+    ]
+  }
+]

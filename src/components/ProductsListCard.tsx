@@ -1,18 +1,38 @@
 import { useState } from "react";
-import { Card } from "../components/ui/Card";
-import { Product } from "../data/product";
-import { Link } from "react-router-dom";
+import { Card } from "./ui/Card";
+import { Link, useParams } from "react-router-dom";
 
-interface ProductCardProps {
-  product: Product;
+interface ProductsCardProps {
+  data: {
+    id: number;
+    title: string;
+    subtitle: string;
+    imageUrls: string[];
+    price: {
+      mrp: number;
+      discount: number;
+      discountPercentage: number;
+    };
+    specifications: Array<{
+      label: string;
+      value: string;
+    }>;
+    productRating: {
+      star: number;
+      rating: number;
+      reviews: number;
+    };
+  };
 }
 
-export function ProductCard({ product }: ProductCardProps) {
+export function ProductsListCard({ data }: ProductsCardProps) {
   const [isLoading, setIsLoading] = useState(true);
+  const { categoriesId } = useParams();
+
 
   return (
     <Link
-      to={`/product/${product.id}`}
+      to={`/categories/${categoriesId}/${data.id}`}
       className="group relative w-full sm:w-[300px] hover:shadow-lg cursor-pointer m-2"
     >
       <Card>
@@ -24,8 +44,8 @@ export function ProductCard({ product }: ProductCardProps) {
             </div>
           )}
           <img
-            src={product.imageUrl[0] || "/placeholder.svg"}
-            alt={product.title}
+            src={data.imageUrls[0] || "/placeholder.svg"}
+            alt={data.title}
             className={`w-3/4 h-auto transform transition-transform duration-300 group-hover:scale-110 rounded-xl ${
               isLoading ? "hidden" : "block"
             }`}
@@ -34,10 +54,10 @@ export function ProductCard({ product }: ProductCardProps) {
         </div>
         <div className="p-4 bg-purple-50 rounded-b-lg">
           <h3 className="text-lg font-semibold text-purple-900 text-center">
-            {product.title}
+            {data.title}
           </h3>
           <p className="text-sm text-purple-600 mt-1 text-center">
-            {product.subtitle}
+            {data.subtitle}
           </p>
         </div>
       </Card>

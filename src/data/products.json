@@ -1,0 +1,158 @@
+[
+  {
+    "id": 101,
+    "subcategoriestitle": "Patna",
+    "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+    "subtitle": "Capital of Bihar",
+    "subproducts": [
+      {
+        "id": 10101,
+        "title": "block1",
+        "subtitle": "Noise Cancelling Bluetooth Headset",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 299.99,
+          "discount": 50,
+          "discountPercentage": 16.67
+        },
+        "specifications": [
+          {
+            "label": "Battery Life",
+            "value": "Up to 30 hours"
+          },
+          {
+            "label": "Connectivity",
+            "value": "Bluetooth 5.0"
+          },
+          {
+            "label": "Color",
+            "value": "Matte Black"
+          }
+        ],
+        "productRating": {
+          "star": 4.5,
+          "rating": 4.5,
+          "reviews": 128
+        }
+      },
+      {
+        "id": 10102,
+        "title": "block2",
+        "subtitle": "Noise Cancelling Bluetooth Headset",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 299.99,
+          "discount": 50,
+          "discountPercentage": 16.67
+        },
+        "specifications": [
+          {
+            "label": "Battery Life",
+            "value": "Up to 30 hours"
+          },
+          {
+            "label": "Connectivity",
+            "value": "Bluetooth 5.0"
+          },
+          {
+            "label": "Color",
+            "value": "Matte Black"
+          }
+        ],
+        "productRating": {
+          "star": 4.5,
+          "rating": 4.5,
+          "reviews": 128
+        }
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "subcategoriestitle": "Gaya",
+    "imgUrl": "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+    "subtitle": "Historical City of Bihar",
+    "subproducts": [
+      {
+        "id": 10201,
+        "title": "block1g",
+        "subtitle": "Noise Cancelling Bluetooth Headset",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 299.99,
+          "discount": 50,
+          "discountPercentage": 16.67
+        },
+        "specifications": [
+          {
+            "label": "Battery Life",
+            "value": "Up to 30 hours"
+          },
+          {
+            "label": "Connectivity",
+            "value": "Bluetooth 5.0"
+          },
+          {
+            "label": "Color",
+            "value": "Matte Black"
+          }
+        ],
+        "productRating": {
+          "star": 4.5,
+          "rating": 4.5,
+          "reviews": 128
+        }
+      },
+      {
+        "id": 10202,
+        "title": "block2g",
+        "subtitle": "Noise Cancelling Bluetooth Headset",
+        "imageUrls": [
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg",
+          "https://robu.in/wp-content/uploads/2022/11/Development-boards-5.jpg"
+        ],
+        "price": {
+          "mrp": 299.99,
+          "discount": 50,
+          "discountPercentage": 16.67
+        },
+        "specifications": [
+          {
+            "label": "Battery Life",
+            "value": "Up to 30 hours"
+          },
+          {
+            "label": "Connectivity",
+            "value": "Bluetooth 5.0"
+          },
+          {
+            "label": "Color",
+            "value": "Matte Black"
+          }
+        ],
+        "productRating": {
+          "star": 4.5,
+          "rating": 4.5,
+          "reviews": 128
+        }
+      }
+    ]
+  }
+]
