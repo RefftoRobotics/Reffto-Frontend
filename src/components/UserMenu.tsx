@@ -46,14 +46,16 @@ export function UserMenu() {
               </a>
               <div className="text-sm text-gray-500">If you are a new user</div>
               <a
-                href="#"
+                href="/register"
                 className="block text-center text-purple-500 hover:underline"
               >
                 Register
               </a>
-              <button className="w-full py-2 bg-purple-500 text-white rounded hover:bg-purple-600">
+              <a href="/login" className="block">
+                <button className="w-full py-2 bg-purple-500 text-white rounded hover:bg-purple-600">
                 LOGIN
               </button>
+              </a>
             </div>
           </div>
         )}
